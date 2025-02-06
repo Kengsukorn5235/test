@@ -1,0 +1,38 @@
+{
+  "HomePage": {
+    "title": "All Products",
+    "description": "Product Management System",
+    "price": "Bath"
+  },
+  "DialogConfirmDelete": {
+    "title": "Are you confirm delete?",
+    "description1": "Item Name",
+    "description2": "Do you want to confirm delete",
+    "buttonCancal": "Cancel",
+    "buttonConfirm": "Delete"
+  },
+  "Button": {
+    "back": "Back",
+    "next": "Next",
+    "reset": "Reset",
+    "save": "Save"
+  },
+  "Stepper": {
+    "step1": "Field product name",
+    "step2": "Field price",
+    "step3": "Field product detail",
+    "step4": "Preview"
+  },
+  "Product": {
+    "productName": "Product Name",
+    "description": "Product Description",
+    "price": "Price",
+    "category": "Category",
+    "image": "Image"
+  },
+  "EditProduct": {
+    "title": "Do you want to edit product data?",
+    "cancel": "Cancel",
+    "save": "Save"
+  }
+}

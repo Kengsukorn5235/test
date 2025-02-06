@@ -1,0 +1,38 @@
+{
+  "HomePage": {
+    "title": "สินค้าทั้งหมด",
+    "description": "ระบบจัดการสินค้า",
+    "price": "บาท"
+  },
+  "DialogConfirmDelete": {
+    "title": "คุณต้องการลบรายนี้ใช่หรือไม่?",
+    "description1": "รายการสินค้า",
+    "description2": "คุณจะลบใช่หรือไม่",
+    "buttonCancal": "ยกเลิก",
+    "buttonConfirm": "ลบ"
+  },
+  "Button": {
+    "back": "ย้อนกลับ",
+    "next": "ถัดไป",
+    "reset": "รีเซต",
+    "save": "บันทึก"
+  },
+  "Stepper": {
+    "step1": "กรอกชื่อสินค้า",
+    "step2": "กรอกราคา",
+    "step3": "กรอกรายละเอียด",
+    "step4": "ยืนยันข้อมูล"
+  },
+  "Product": {
+    "productName": "ชื่อสินค้า",
+    "description": "รายละเอียดสินค้า",
+    "price": "ราคา",
+    "category": "หมวดหมู่",
+    "image": "รูปภาพ"
+  },
+  "EditProduct": {
+    "title": "คุณต้องการเปลี่ยนแปลงข้อมูลหรือไม่?",
+    "cancel": "ยกเลิก",
+    "save": "บันทึก"
+  }
+}
