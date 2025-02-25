@@ -69,7 +69,7 @@ export default function HomePage() {
 
       const resAll = await ProductAPI.getData();
       setTotalRows(resAll.data.length);
-    } catch {}
+    } catch { }
   };
 
   const getSingleProduct = async (productId: number) => {
@@ -142,9 +142,8 @@ export default function HomePage() {
       renderCell: (params) => {
         return (
           <>
-            <Typography variant="body1" sx={{ mt: 1.5 }}>{`${
-              params.row.price
-            } ${t("price")}`}</Typography>
+            <Typography variant="body1" sx={{ mt: 1.5 }}>{`${params.row.price
+              } ${t("price")}`}</Typography>
           </>
         );
       },
@@ -200,6 +199,7 @@ export default function HomePage() {
       </Grid2>
       <Grid2 container spacing={2}>
         <DataGrid
+          getRowId={(item) => item.id}
           columns={columns}
           rows={products}
           rowCount={totalRows}
